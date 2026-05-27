@@ -11,3 +11,7 @@ function clr(){
 function ans(){
   display.value = eval(display.value);
 }
+
+function clearLast() {
+  display.value = display.value.slice(0, -1);
+}
